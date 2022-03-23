@@ -1,5 +1,5 @@
 print('~$~'*10+' GILFEST '+'~$~'*10)
-rolls = int(input('Digite quantas roletas você deseja fazer: '))
+rolls = int(input('Enter how many roulettes you want to make: '))
 ceNero = lore = fouHp = fouAtq = bigDiamond = goldFruit = silverFruit = bronzeFruit = serpentJewel = meteorHorseshoe = 0
 proofOfHero = foolsChain = secretGemOfSaber = secretGemOfArcher = secretGemOfLancer = secretGemOfRider = 0
 secretGemOfCaster = secretGemOfAssassin = secretGemOfBerserker = magicGemOfSaber = magicGemOfArcher = magicGemOfLancer = 0
@@ -50,48 +50,44 @@ for rolleta in range(1, rolls +1):
     qP += 447
     friendPoints += 8
     lotteryCurrency += 600        
-print('''Com {} rolls, são necessários {} Lottery Currency, você vai obter :
-ceNero = {}
-lore = {}
-fouHp = {}
-fouAtq = {}
-bigDiamond = {}
-goldFruit = {}
-silverFruit = {}
-bronzeFruit = {}
-serpentJewel = {}
-meteorHorseshoe = {}
-proofOfHero = {}
-foolsChain = {}
-secretGemOfSaber = {}
-secretGemOfArcher = {}
-secretGemOfLancer = {}
-secretGemOfRider = {}
-secretGemOfCaster = {}
-secretGemOfAssassin = {}
-secretGemOfBerserker = {}
-magicGemOfSaber = {}
-magicGemOfArcher = {}
-magicGemOfLancer = {}
-magicGemOfRider = {}
-magicGemOfCaster = {}
-magicGemOfAssassin = {}
-magicGemOfBerserker = {}
-gemOfSaber = {}
-gemOfArcher = {}
-gemOfLancer = {}
-gemOfRider = {}
-gemOfCaster = {}
-gemOfAssassin = {}
-gemOfBerserker = {}
-blazeOfWisdom = {}
-fireOfWisdom = {}
-manaPrism = {}
-qP = {}
-friendPoints = {}
-'''.format(rolls, lotteryCurrency, ceNero,lore, fouHp ,fouAtq, bigDiamond, goldFruit,silverFruit, bronzeFruit, serpentJewel, meteorHorseshoe, 
-proofOfHero, foolsChain,secretGemOfSaber, secretGemOfArcher, secretGemOfLancer, secretGemOfRider, secretGemOfCaster, 
-secretGemOfAssassin, secretGemOfBerserker, magicGemOfSaber , magicGemOfArcher , magicGemOfLancer, magicGemOfRider, 
-magicGemOfCaster, magicGemOfAssassin, magicGemOfBerserker, gemOfSaber, gemOfArcher, gemOfLancer, gemOfRider, gemOfCaster,
-gemOfAssassin, gemOfBerserker, blazeOfWisdom, fireOfWisdom, manaPrism, qP, friendPoints)) 
+print(f'''With {rolls} rolls, are necessary {lotteryCurrency} Lottery Currency, you will get:
+Nero Bride CE = {ceNero}
+Lore = {lore}
+Fou Hp = {fouHp}
+Fou Atq = {fouAtq}
+Big Diamond = {bigDiamond}
+Gold Fruit = {goldFruit}
+Silver Fruit = {silverFruit}
+Bronze Fruit = {bronzeFruit}
+Serpent Jewel = {serpentJewel}
+Meteor Horseshoe = {meteorHorseshoe}
+Proof Of Hero = {proofOfHero}
+Fools Chain = {foolsChain}
+Secret Gem Of Saber = {secretGemOfSaber}
+Secret Gem Of Archer = {secretGemOfArcher}
+Secret Gem Of Lancer = {secretGemOfLancer}
+Secret Gem Of Rider = {secretGemOfRider}
+Secret Gem Of Caster = {secretGemOfCaster}
+Secret Gem Of Assassin = {secretGemOfAssassin}
+Secret Gem Of Berserker = {secretGemOfBerserker}
+Magic Gem Of Saber = {magicGemOfSaber}
+Magic Gem Of Archer = {magicGemOfArcher}
+Magic Gem Of Lancer = {magicGemOfLancer}
+Magic Gem Of Rider = { magicGemOfRider}
+Magic Gem Of Caster = {magicGemOfCaster}
+Magic GemO f Assassin = {magicGemOfAssassin}
+Magic Gem Of Berserker = {magicGemOfBerserker}
+Gem Of Saber = {gemOfSaber}
+Gem Of Archer = {gemOfArcher}
+Gem Of Lancer = {gemOfLancer}
+Gem Of Rider = {gemOfRider}
+Gem Of Caster = {gemOfCaster}
+Gem Of Assassin = {gemOfAssassin}
+Gem Of Berserker = {gemOfBerserker}
+Blaze Of Wisdom = {blazeOfWisdom}
+Fire Of Wisdom = {fireOfWisdom}
+Mana Prism = {manaPrism}
+QP = {qP}
+Friend Points = {friendPoints *1000}
+''')
 print('~$~'*10 + ' ZASSHUMU ' + '~$~'*10)     
